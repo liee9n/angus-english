@@ -58,6 +58,7 @@ linebot：黃杰英語
 ![](https://i.imgur.com/yrbvtf6.png)
 
 + 我要繳費—系統會自動導向繳費回條的連結，減少人工對帳的時間成本
+
 ![](https://i.imgur.com/4wxyFtJ.jpg)
 
 #### Secret Data
