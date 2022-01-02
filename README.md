@@ -34,19 +34,27 @@ linebot：黃杰英語
 ![](https://i.imgur.com/fiOM55z.jpg)
 
 + 認識黃杰—小選單（提供黃杰的電子名片、補習班地圖位址...資訊）
+
 ![](https://i.imgur.com/AcG7Wlr.jpg)
+
 ![](https://i.imgur.com/L0R2uOD.jpg)
 
 + 我要訂餐—可以訊息互動，來讀寫google sheet內建的資料，即時扣款餐費並統整當日需要叫送的餐點和數量
+
 ![](https://i.imgur.com/SPe0Uh2.jpg)
+
 ![](https://i.imgur.com/upmjiiU.png)
 
 + 我要找聯絡簿—根據輸入的年級，系統會自動找到當週的聯絡簿內容並回傳
+
 ![](https://i.imgur.com/gNiPIRc.jpg)
+
 ![](https://i.imgur.com/9l99GV0.png)
 
 + 我要交作業—透過訊息互動，確認派發作業的項目和狀況，並自動填入學生輸入的寫作作業內容
+
 ![](https://i.imgur.com/cKYiACq.jpg)
+
 ![](https://i.imgur.com/yrbvtf6.png)
 
 + 我要繳費—系統會自動導向繳費回條的連結，減少人工對帳的時間成本
