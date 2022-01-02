@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "angus-english-contactbook",
+  "private_key_id": "2dc8394de662e2af5ca0072702aaaa89b5ed8f15",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCp6DjPNqcidjE6\nTXnKnLRv1+aFHMBn9Kov8Kjk18L3bJFufvhlfj/Ts0BgKO2cs9qokcZFv4kG6UM1\nCVM0umtoL7Hpn8c63u2TjPxLe0gDQ476hbUix/dqbyrz/RrJ9NzE80wavlc2N54b\nVwRj2zFSQbXJc+VKOQa/SMl9WMMqZG2GlfNsJlUc3UA85IgosuvNWIXtroAPRu0u\nv3n6BvpGiouSuxJ43fYzS7lIHbwQnbfVqOVlz7TN90A1JBRn7Cp/Y9he6W6pRMpd\nVOGyyQNYOBLiYUGO95uYjmQICgyPSZtRRCjSd6+pnqrW42FNsWEDDza4nttnMKq+\nBK87p+O3AgMBAAECggEALxnpZchI3QzW6MrBkKGQg9DeXthxnl/9Lf0RVR9bNSwr\nxO39/mTZXN68Yev2sxJI86I1zPAkFH5l2zYSkvN7Aw71y0Y3/OIACn9zEZnDhOQd\npuWaKWI1/JOE3M61tnbjHNY1qtRJaQZSFlIxLV1+dscwlgBC+CiG7lBHSzBoKj/p\nWUAcGWqG1Okm5pySrnM+kpX1rWrUTyOFvEyb5YeYyoEkWDSJenV0ea8h7XaChiu7\nyoRJE1yxx7ZMufndUz2vvWYjWk9GgAAHNCR4gO8qhlxQK0AR5XKyv6YPT/ShMDb3\nh+RK6ki2O3xGOzBy4KYWxma83kkxz8Sj+7rKnOixQQKBgQDSv0yj/00NYdFxk6oV\nndVnNrDJzpvoo2Db1VJZqFqVxUJuo71lJqW/OhYUEfnO/XSGizeuEy9poO6KlFGR\nUy3EZ2/Cllx93dJeGE83U3Qmmor12NDZ8ZqF99HwrrO/PG9nuwyWkFLKhH1h0XE4\nQSzKcRUe2HsAXIbLa7NPis/3jQKBgQDOY/RaObDO5Ys/DUeePMaQV7C/yzKUzRIT\nJ8s/2iKNge5JcPOCDHUaA94ejWJDeDAKia4maztU68PFhMYCY5v5uIE1AInF2z/S\nAIu+XISb9WELWHf7xW3gufms3fWuFjQpAbQX+JiLWzP5OBQPyGsB7zxxTxbkC9AI\nku1L99BlUwKBgHM+hSyRKZON0DippTLY8p/UemyA/SUEYq0UREofFBoemqtiAunT\nboPZwcUL521XkGcarkIU37KFfKxvWwN7VuW2IploHAAAU099P6RjkHqjvCWggOUN\nh5CG6lkRT93dsJYq5UFYfs2cEexx2dYHXfT+TaxmeSzDbDrFFHME16DpAoGAM5Ze\nVFMJM53CgV8TYKT2SMvyXO4wVWswsmMG9Y3ThyVL50V5SC9O8dK3qVFTl2OqNmgV\nhHrXGLHZfDxkteIp8XBBs3rP9QmJWTdTtqAvcUATIp/ZVbASd9JkauYL65iXLwzC\n9B7qGiMQyaFPumYxAQnIRNYs9ZFSTWJUN+HYUAsCgYEAmqCKC+Ql/uMgvjQh2/bW\n8ClKnkbWDkSdvddlVJcx0mTq20RD4h13SG0FvmvAmN0xiucWg6pD4DbB8qvGslSn\ny4qWvsDSecEzqVd/WSbXfpUibukXKX/XCPQ+mT8h6DuhL8TrI2Nkj4LxJxAY5VQ9\nYLWnUPkUNRWcUDvwY1BUr0s=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hw-book@angus-english-contactbook.iam.gserviceaccount.com",
+  "client_id": "106977758590616410053",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hw-book%40angus-english-contactbook.iam.gserviceaccount.com"
+}
