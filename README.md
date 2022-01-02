@@ -19,21 +19,36 @@ More details in the [Slides](https://hackmd.io/@TTW/ToC-2019-Project#) and [FAQ]
 * Facebook Page and App
 * HTTPS Server
 
-#### Install Dependency
-```sh
-pip3 install pipenv
+## 創立主旨
+為協助補習班的班務順利運作，利用linebot與學生的互動，自動匯入餐費、學費處理...等處理班務需要的細節資料，以減少人工作業的時間；同時也提供補習班的資訊介紹，讓學區不在補習班附近的學生，透過linebot的互動也能認識黃杰英語。
 
-pipenv --three
+## 介紹
+### 基本資訊
+linebot：黃杰英語
+![](https://i.imgur.com/orBMmf9.jpg)
 
-pipenv install
+### 功能
+主選單
+![](https://i.imgur.com/fiOM55z.jpg)
 
-pipenv shell
-```
++ 認識黃杰—小選單（提供黃杰的電子名片、補習班地圖位址...資訊）
+![](https://i.imgur.com/AcG7Wlr.jpg)
+![](https://i.imgur.com/L0R2uOD.jpg)
 
-* pygraphviz (For visualizing Finite State Machine)
-    * [Setup pygraphviz on Ubuntu](http://www.jianshu.com/p/a3da7ecc5303)
-	* [Note: macOS Install error](https://github.com/pygraphviz/pygraphviz/issues/100)
++ 我要訂餐—可以訊息互動，來讀寫google sheet內建的資料，即時扣款餐費並統整當日需要叫送的餐點和數量
+![](https://i.imgur.com/SPe0Uh2.jpg)
+![](https://i.imgur.com/upmjiiU.png)
 
++ 我要找聯絡簿—根據輸入的年級，系統會自動找到當週的聯絡簿內容並回傳
+![](https://i.imgur.com/gNiPIRc.jpg)
+![](https://i.imgur.com/9l99GV0.png)
+
++ 我要交作業—透過訊息互動，確認派發作業的項目和狀況，並自動填入學生輸入的寫作作業內容
+![](https://i.imgur.com/cKYiACq.jpg)
+![](https://i.imgur.com/yrbvtf6.png)
+
++ 我要繳費—系統會自動導向繳費回條的連結，減少人工對帳的時間成本
+![](https://i.imgur.com/4wxyFtJ.jpg)
 
 #### Secret Data
 You should generate a `.env` file to set Environment Variables refer to our `.env.sample`.
@@ -77,77 +92,6 @@ Or You can use [servo](http://serveo.net/) to expose local servers to the intern
 The initial state is set to `user`.
 
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
-
-* user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
-
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
-
-## Deploy
-Setting to deploy webhooks on Heroku.
-
-### Heroku CLI installation
-
-* [macOS, Windows](https://devcenter.heroku.com/articles/heroku-cli)
-
-or you can use Homebrew (MAC)
-```sh
-brew tap heroku/brew && brew install heroku
-```
-
-or you can use Snap (Ubuntu 16+)
-```sh
-sudo snap install --classic heroku
-```
-
-### Connect to Heroku
-
-1. Register Heroku: https://signup.heroku.com
-
-2. Create Heroku project from website
-
-3. CLI Login
-
-	`heroku login`
-
-### Upload project to Heroku
-
-1. Add local project to Heroku project
-
-	heroku git:remote -a {HEROKU_APP_NAME}
-
-2. Upload project
-
-	```
-	git add .
-	git commit -m "Add code"
-	git push -f heroku master
-	```
-
-3. Set Environment - Line Messaging API Secret Keys
-
-	```
-	heroku config:set LINE_CHANNEL_SECRET=your_line_channel_secret
-	heroku config:set LINE_CHANNEL_ACCESS_TOKEN=your_line_channel_access_token
-	```
-
-4. Your Project is now running on Heroku!
-
-	url: `{HEROKU_APP_NAME}.herokuapp.com/callback`
-
-	debug command: `heroku logs --tail --app {HEROKU_APP_NAME}`
-
-5. If fail with `pygraphviz` install errors
-
-	run commands below can solve the problems
-	```
-	heroku buildpacks:set heroku/python
-	heroku buildpacks:add --index 1 heroku-community/apt
-	```
-
-	refference: https://hackmd.io/@ccw/B1Xw7E8kN?type=view#Q2-如何在-Heroku-使用-pygraphviz
 
 ## Reference
 [Pipenv](https://medium.com/@chihsuan/pipenv-更簡單-更快速的-python-套件管理工具-135a47e504f4) ❤️ [@chihsuan](https://github.com/chihsuan)
