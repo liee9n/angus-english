@@ -1,4 +1,4 @@
-# TOC Project 2020
+# TOC Project 2021
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/dc7fa47fcd809b99d087/maintainability)](https://codeclimate.com/github/NCKU-CCS/TOC-Project-2020/maintainability)
 
@@ -20,7 +20,7 @@ More details in the [Slides](https://hackmd.io/@TTW/ToC-2019-Project#) and [FAQ]
 * HTTPS Server
 
 ## 創立主旨
-為協助補習班的班務順利運作，利用linebot與學生的互動，自動匯入餐費、學費處理...等處理班務需要的細節資料，以減少人工作業的時間；同時也提供補習班的資訊介紹，讓學區不在補習班附近的學生，透過linebot的互動也能認識黃杰英語。
+為協助補習班的班務順利運作，利用 linebot 與學生的互動，自動匯入餐費、學費處理...等處理班務需要的細節資料，以減少人工作業的時間；同時也提供補習班的資訊介紹，讓學區不在補習班附近的學生，透過 linebot 的互動也能認識黃杰英語。
 
 ## 介紹
 ### 基本資訊
